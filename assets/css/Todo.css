@@ -1,0 +1,78 @@
+body{
+	font-family: Roboto;
+	/* background: #5f2c82;  
+	background: -webkit-linear-gradient(to right, #49a09d, #5f2c82); 
+	background: linear-gradient(to right, #49a09d, #5f2c82); */
+	background: #24C6DC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+	background-color: #2980b9;
+	color: white;
+	margin: 0;
+	padding:2% 4%;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#container{
+	margin:10% auto;
+	width: 40%;
+	align-content: center;
+ /*bt3ml eh bet el 3abeeta de malhash ay lazma*/
+ 	/* text-align: center; */
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	background-color: #f7f7f7;
+	min-height: 80%;
+}
+li{
+	background-color: white;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+li:nth-of-type(2n){
+	background-color: #f7f7f7;
+}
+.done{
+	text-decoration: line-through;
+	/* font-style: italic; */
+	color: grey;
+}
+input{
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	box-sizing: border-box;
+	padding:13px 13px 13px 20px;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+input:focus{
+	background: white;
+	border:3px solid #2980b9;
+	outline: none;
+}
+#add{
+	float: right;
+}
+span{
+	background-color: #ff3c3c;
+	width: 0px;
+	height:40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	display: inline-block; 
+	transition: 0.2s linear;
+	opacity: 0;
+}
+li:hover span{
+	width:40px;
+	opacity: 1;
+}
